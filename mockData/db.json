@@ -1,0 +1,33 @@
+{
+  "arr": [
+    {
+      "id": 1,
+      "cardNumber": "5555555555554444",
+      "name": "John Doe",
+      "typeId": 1
+    },
+    {
+      "id": 2,
+      "cardNumber": "4111111111111111",
+      "name": "User Roma",
+      "typeId": 1
+    },
+    {
+      "id": 3,
+      "cardNumber": "5105105105105100",
+      "name": "Vadim Cernev",
+      "typeId": 2
+    },
+    {
+      "id": 4,
+      "cardNumber": "4012888888881881",
+      "name": "Evghenii Cernev",
+      "typeId": 1
+    }
+  ],
+
+  "type": [
+    { "id": 1, "name": "Visa" },
+    { "id": 2, "name": "MasterCard" }
+  ]
+}

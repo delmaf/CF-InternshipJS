@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: "Raleway",
+    sans-serif;
+}
+
+.payment-card h1 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.payment-card .form-payment {
+  margin: 0 auto;
+  max-width: 40%;
+}
+
+.payment-card .form-payment .form-field {
+    display: block;
+    font-size: 0.75rem;
+    margin-top: 15px;
+}
+
+.payment-card .form-payment .form-field input {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+    padding: 15px;
+    font-size: 1rem;
+    font-family: inherit;
+    margin-top: 3px;
+}
+
+.payment-card .form-payment .card-security-info  {
+    display: flex;
+}
+
+.payment-card .form-payment .card-security-info .form-field {
+    flex: 1px
+}
+
+
+.payment-card .form-payment .card-security-info .form-field:not(:first-child) {
+    margin-left: 20px;
+}
+
+.btn  {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+    padding: 15px;
+    font-size: 1rem;
+    font-family: inherit;
+    margin-top: 3px;
+}
+
+.btn:hover, btn:focus {
+    background-color: #bbb;
+}
+
+.card-container { 
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* FRONT OF CARD */
+#svgname {
+    text-transform: uppercase;
+}
+
+#cardfront .st2 {
+    fill: #FFFFFF;
+}
+
+#cardfront .st3 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+}
+
+#cardfront .st4 {
+    font-size: 54.7817px;
+}
+
+#cardfront .st5 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
+#cardfront .st6 {
+    font-size: 33.1112px;
+}
+
+#cardfront .st7 {
+    opacity: 0.6;
+    fill: #FFFFFF;
+}
+
+#cardfront .st8 {
+    font-size: 24px;
+}
+
+#cardfront .st9 {
+    font-size: 36.5498px;
+}
+
+#cardfront .st10 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+}
+
+#cardfront .st11 {
+    font-size: 16.1716px;
+}
+
+#cardfront .st12 {
+    fill: #4C4C4C;
+}
+
+.svg-relative {
+    position: relative;
+}
+
+.svg-container{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
