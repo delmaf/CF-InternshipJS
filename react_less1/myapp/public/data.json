@@ -1,0 +1,345 @@
+{
+  "menuData": 
+      {
+          "phoneNumbers": [
+              {
+                  "id": 1,
+                  "city": "Chisinau",
+                  "number": "022 231231"
+              },
+              {
+                  "id": 2,
+                  "city": "Balti",
+                  "number": "023 100210"
+              },
+              {
+                  "id": 3,
+                  "city": "Cahul",
+                  "number": "078 848888"
+              },
+              {
+                  "id": 4,
+                  "city": "Comrat",
+                  "number": "078 222288"
+              },
+              {
+                  "id": 5,
+                  "city": "Ceadâr Lunga",
+                  "number": "078 444466"
+              }
+          ],
+          "partners": [
+              {
+                  "id": 1,
+                  "alt": "LaPlacinte",
+                  "imgUrl": "https://www.andys.md/assets/img/brands/LaPlacinte.svg",
+                  "redirectUrl": "https://laplacinte.md/"
+                },
+                {
+                  "id": 2,
+                  "alt": "CiaoCacao",
+                  "imgUrl": "https://www.andys.md/assets/img/brands/CiaoCacao.svg",
+                  "redirectUrl": "https://ciaocacao.md/"
+                },
+                {
+                  "id": 3,
+                  "alt": "Gustland",
+                  "imgUrl": "https://www.andys.md/assets/img/brands/Gustland.png",
+                  "redirectUrl": "https://gustland.md/"
+                }
+          ],
+          "nav": [
+              {
+                  "id": 1,
+                  "title": "Menu",
+                  "subMenu": [
+                      {
+                          "id": 1,
+                          "title": "Pizza"
+                      },
+                      {
+                          "id": 2,
+                          "title": "Drinks"
+                      },
+                      {
+                          "id": 3,
+                          "title": "Salads"
+                      },
+                      {
+                          "id": 4,
+                          "title": "Breakfast"
+                      },
+                      {
+                          "id": 5,
+                          "title": "Main Dishes"
+                      },
+                      {
+                          "id": 6,
+                          "title": "Beverages"
+                      },
+                      {
+                          "id": 7,
+                          "title":"Alcohol"
+                      },
+                      {
+                          "id": 8,
+                          "title": "Cutlery"
+                      },
+                      {
+                          "id": 9,
+                          "title": "Andy`s Bakery"
+                      },
+                      {
+                          "id": 10,
+                          "title": "Cake"
+                      },
+                      {
+                          "id": 11,
+                          "title": "Dessert"
+                      },
+                      {
+                          "id": 12,
+                          "title": "Semi-finished products"
+                      },
+                      {
+                          "id": 13,
+                          "title": "Party menu"
+                      }
+                  ]
+              },
+              {
+                  "id": 2,
+                  "title": "Restaurants"
+              },
+              {
+                  "id": 3,
+                  "title": "News"
+              }
+          ]
+      },
+
+  "contentData": [
+      {
+          "id": 1,
+          "title": "Breakfast",
+          "items": [
+            {
+              "id": 1,
+              "name": "Vegetables Omelette",
+              "price": 95,
+              "currency": "mdl",
+              "urlImg":
+                "https://www.andys.md/public/menu/thumbs/version_220x310x1/b64e43af8c454dbd9387ae8d363b880f.jpg",
+                "inCart": false
+            },
+            {
+              "id": 2,
+              "name": "Bacon Omelette",
+              "price": 60,
+              "currency": "mdl",
+              "urlImg":
+                "https://www.andys.md/public/menu/thumbs/version_220x310x1/93915d1d915bc498ae67a89ef34eb7f6.jpg",
+                "inCart": false
+            },
+            {
+              "id": 3,
+              "name": "Bacon & Egg Croissant",
+              "price": 25,
+              "currency": "mdl",
+              "urlImg":
+                "https://www.andys.md/public/menu/thumbs/version_220x310x1/93915d1d915bc498ae67a89ef34eb7f6.jpg",
+                "inCart": false
+            },
+            {
+              "id": 4,
+              "name": "Сottage Cheese Cakes",
+              "price": 85,
+              "currency": "mdl",
+              "urlImg":
+                "https://www.andys.md/public/menu/thumbs/version_220x310x1/93915d1d915bc498ae67a89ef34eb7f6.jpg",
+                "inCart": false
+            },
+            {
+              "id": 5,
+              "name": "Cheese Cakes",
+              "price": 55,
+              "currency": "mdl",
+              "urlImg":
+                "https://www.andys.md/public/menu/thumbs/version_220x310x1/c1dcb23f8376fc6ead3aeec68b59a2d0.jpg",
+                "inCart": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Pizza",
+          "items": [
+            {
+              "id": 1,
+              "name": "Margherita",
+              "price": 90,
+              "currency": "mdl",
+              "urlImg":
+                "https://andys.md/public/menu/thumbs/version_220x310x1/756e8908e97a0b115455d61e9974e4be.jpg",
+                "inCart": false
+            },
+            {
+              "id": 2,
+              "name": "Neapolitana",
+              "price": 95,
+              "currency": "mdl",
+              "urlImg":
+                "https://andys.md/public/menu/thumbs/version_220x310x1/e82699285be9e14654e7ca2476437b49.jpg",
+                "inCart": false
+            },
+            {
+              "id": 3,
+              "name": "Barbeque",
+              "price": 110,
+              "currency": "mdl",
+              "urlImg":
+                "https://andys.md/public/menu/thumbs/version_220x310x1/052e9f089f73d9cb5ecb8b831109f3b5.jpg",
+                "inCart": false
+            },
+            {
+              "id": 4,
+              "name": "Mario",
+              "price": 85,
+              "currency": "mdl",
+              "urlImg":
+                "https://andys.md/public/menu/thumbs/version_220x310x1/737c8692719fc56eb65cd525be837aef.jpg",
+                "inCart": false
+            },
+            {
+              "id": 5,
+              "name": "4 Cheese",
+              "price": 105,
+              "currency": "mdl",
+              "urlImg":
+                "https://andys.md/public/menu/thumbs/version_220x310x1/eac9362c7dcd11df9149ecb057259c6d.jpg",
+                "inCart": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Salads",
+          "items": [
+            {
+              "id": 1,
+              "name": "Salmon salad",
+              "price": 120,
+              "currency": "mdl",
+              "urlImg":
+                "https://www.andys.md/public/menu/thumbs/version_220x310x1/b11f6824a28ef9a4bbce819d0c7b1318.jpg",
+                "inCart": false
+            },
+            {
+              "id": 2,
+              "name": "Chicken cezar",
+              "price": 85,
+              "currency": "mdl",
+              "urlImg":
+                "https://www.andys.md/public/menu/thumbs/version_220x310x1/1d719651a8410e475ac9c4967492f9b8.jpg",
+                "inCart": false
+            },
+            {
+              "id": 3,
+              "name": "Greek salad",
+              "price": 65,
+              "currency": "mdl",
+              "urlImg":
+                "https://www.andys.md/public/menu/thumbs/version_220x310x1/1d719651a8410e475ac9c4967492f9b8.jpg",
+                "inCart": false
+            },
+            {
+              "id": 4,
+              "name": "Beef salad",
+              "price": 90,
+              "currency": "mdl",
+              "urlImg":
+                "https://www.andys.md/public/menu/thumbs/version_220x310x1/1d719651a8410e475ac9c4967492f9b8.jpg",
+                "inCart": false
+            },
+            {
+              "id": 5,
+              "name": "Shrimp Caesar",
+              "price": 60,
+              "currency": "mdl",
+              "urlImg":
+                "https://www.andys.md/public/menu/thumbs/version_220x310x1/b11f6824a28ef9a4bbce819d0c7b1318.jpg",
+                "inCart": false
+            }
+          ]
+        }
+  ],
+
+  "footerData":  [
+      {
+          "id": 1,
+          "title": "Company",
+          "list": [
+              {
+                  "id": 1,
+                  "name": "Career"
+              },
+              {
+                  "id": 2,
+                  "name": "Feedback"
+              },
+              {
+                  "id": 3,
+                  "name": "Contacts"
+              }
+      ]
+    },
+      {
+          "id": 2,
+          "title": "Services",
+          "list": [
+              {
+                  "id": 1,
+                  "name": "Corporate clients"
+              },
+              {
+                  "id": 2,
+                  "name": "Client card"
+              },
+              {
+                  "id": 3,
+                  "name": "Kids parties"
+              },
+              {
+                  "id": 4,
+                  "name": "Banquets"
+              }
+          ]
+    },
+    {
+      "id": 3,
+      "title": "Delivery",
+      "list": [
+          {
+              "id": 1,
+              "name": "Chisinau"
+          },
+          {
+              "id": 2,
+              "name": "Balti"
+          },
+          {
+              "id": 3,
+              "name": "Comrat"
+          },
+          {
+              "id": 4,
+              "name": "Cahul"
+          },
+          {
+              "id": 5,
+              "name": "Ceadir Lunga"
+          }
+      ]
+  }
+]
+}

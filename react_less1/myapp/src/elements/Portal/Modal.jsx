@@ -1,0 +1,43 @@
+// import React from "react";
+// import Portal from "./PortalModal";
+// import { useNavigate } from "react-router-dom";
+// import i18next from 'i18next';
+
+
+// const PortalModal = ({ data }) => {
+//   const lang = i18next.language;
+//   const navigate = useNavigate();
+
+//   return (
+//     <Portal key={data.popup.id}>
+//       <div>
+//         {data.popup.name}
+//         <button onClick={() => navigate("/menu")}>close</button>
+//       </div>
+//     </Portal>
+//   );
+// };
+
+
+
+
+
+// //   if (!isOpen) return null;
+// //   return ReactDOM.createPortal(
+// //     <div className={className}>
+// //       <h2>{message}</h2>
+// //       {children}
+// //       <Link to={`/${lang}/`}>   
+// //       <button 
+// //       onClick={onClose}
+// //       className='text-red-600 text-xl'
+// //       >
+// //            {'<-X->'}
+// //       </button>
+// //       </Link>
+// //     </div>,
+// //     document.getElementById('portal')
+// //   );
+// // };
+
+// export default PortalModal;
