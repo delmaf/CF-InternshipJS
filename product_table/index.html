@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="backdrop backdrop--hidden" data-modal>
+        <div id="modal-root">
+          <div class="modal">
+            <button type="button" class="close-button">X</button>
+            <form class="form">
+              <div class="date-container"></div>
+              <label class="form-field">
+                Order
+                <input type="number" name="orderId" placeholder="order" />
+              </label>
+              <label class="form-field">
+                Name
+                <input type="text" name="name" placeholder="name" />
+              </label>
+              <label class="form-field">
+                Price
+                <input type="number" name="price" placeholder="price" />
+              </label>
+              <button type="submit" class="save-button">Save</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <table class="goods-table">
+        <tr>
+          <th>Date</th>
+          <th>Order Id</th>
+          <th>
+            Name<button class="sort-button" data-sort="incr-name">+</button
+            ><button class="sort-button" data-sort="desc-name">-</button>
+          </th>
+          <th>
+            Price<button class="sort-button" data-sort="incr-price">+</button
+            ><button class="sort-button" data-sort="desc-price">-</button>
+          </th>
+          <th>Actions</th>
+        </tr>
+        <tbody class="tbody"></tbody>
+      </table>
+      <button class="add-button">Add</button>
+    </main>
+    <script src="./parser.js" type="module"></script>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
